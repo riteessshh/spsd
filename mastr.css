@@ -1,0 +1,143 @@
+body{
+  margin-bottom: 20px;
+}
+
+.imt {
+  margin: 5% 3% 2%;
+}
+
+.info{
+  padding: 10px;
+}
+
+.heading {
+  font-family: 'Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.content {
+  font-family: 'Spartan', sans-serif;
+  padding-top: 20px;
+}
+
+.rating {
+  font-family: 'Spartan', sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  color:  hsl(300, 43%, 22%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rate1 {
+  background-color: hsl(300, 24%, 96%);
+  margin: 20px auto 17px 0;
+  padding: 10px 25px;
+  width: 80%;
+
+}
+.rate2 {
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px auto 17px 25px;
+  padding: 10px 25px;
+  width: 80%;
+}
+.rate3 {
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px auto 17px 50px;
+  padding: 10px 20px;
+  width: 80%;
+}
+
+.rt-img{
+  width: 50%;
+  border-radius: 50%;
+}
+
+.na {
+  margin: 10px;
+}
+.reviews {
+  font-family: 'Spartan', sans-serif;
+  background-color: hsl(300, 43%, 22%);
+  color: #fff;
+  padding: 10px;
+  border-radius: 3%;
+  display: grid;
+  /* grid: auto-flow dense / 40px 40px 1fr; */
+  /* grid: repeat(3, 60px) / auto-flow; */
+  grid-template-columns: 100px auto;
+  font-size: 12px;
+}
+ p {
+   /* padding-top: 5px:  */
+   grid-column-start: 1;
+   grid-column-end: 3;
+   font-size: 12px;
+ }
+
+.sub {
+  display: block;
+  color: hsl(333, 80%, 67%);
+}
+
+.cnt {
+  padding-top: 4%;
+}
+
+.r1 {
+  margin-bottom: 20px;
+}
+
+.r2 {
+  margin: 10px 0;
+}
+
+.r3 {
+  margin-top: 20px;
+}
+
+@media (max-width:992px) {
+
+  .rate1 {
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px auto 17px;
+    padding: 10px 25px;
+    width: 80%;
+
+  }
+  .rate2 {
+    background-color: hsl(300, 24%, 96%);
+    margin: 10px auto 17px;
+    padding: 10px 25px;
+    width: 80%;
+  }
+  .rate3 {
+    background-color: hsl(300, 24%, 96%);
+    margin: 10px auto 17px;
+    padding: 10px 20px;
+    width: 80%;
+  }
+
+
+  .heading {
+    font-family: 'Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .content {
+    font-family: 'Spartan', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+
+}
